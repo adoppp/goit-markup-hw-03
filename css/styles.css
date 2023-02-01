@@ -1,0 +1,256 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.logo.web {
+    color: #4D5AE5;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.logo.studio {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.links {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.links:hover {
+    color: #404BBF;
+}
+
+.links:focus {
+    color: #404BBF;
+}
+
+.contact:hover {
+    color: #404BBF;
+}
+
+.contact:focus {
+    color: #404BBF;
+}
+
+.contact {
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.first-section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.0;
+    color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    margin-top: 188px;
+}
+
+.button-studio {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    border: 0;
+    margin-top: 48px;
+    width: 169px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-studio:hover {
+    background: #404BBF;
+    cursor: pointer;
+}
+
+.backgrond-section-one {
+    background: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+
+.list-one {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.list-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+.footer-description {
+    color: #E7E9FC;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ourteam {
+    background: #F4F4FD;
+}
+
+.logo.studio.white {
+    color: #F4F4FD;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.button-portfolio {
+    background: #F4F4FD;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5;
+}
+
+.button-portfolio:hover {
+    background: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.product-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.product-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.title-h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #2E2F42;
+}
+
+.title-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.name-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    color: #434455;
+}
+
+.nav-header {
+    display: flex;
+
+}
+
+.contact-parents {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 24px;
+    margin-right: 156px;
+}
+
+.list-nav {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.cont-item {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 24px;
+}
+
+.ad-item {
+    display: inline;
+    margin-left: 40px;
+}
+
+.logotip {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.containerone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-spn {
+    margin-top: 16px;
+}
