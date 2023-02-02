@@ -245,7 +245,7 @@ img {
     justify-content: space-between;
 }
 
-header {
+.header-container {
     display: flex;
     justify-content: space-evenly;
     margin-left: 24px;
@@ -408,4 +408,9 @@ header {
     border-right: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     padding-top: 32px;
+}
+
+.header-bottom {
+    border-bottom: 1px solid #E7E9FC;
+    width: auto;
 }
