@@ -84,8 +84,8 @@ img {
     line-height: 1.0;
     color: #FFFFFF;
     justify-content: center;
-    display: flex;
-    margin-top: 188px;
+    margin-top: 188px; 
+    width: 494px;
 }
 
 .button-studio {
@@ -102,6 +102,7 @@ img {
     height: 56px;
     display: flex;
     justify-content: center;
+    margin-bottom: 188px;
 }
 
 .button-studio:hover {
@@ -111,8 +112,12 @@ img {
 
 .backgrond-section-one {
     background: #2E2F42;
-    width: 1440px;
+    width: auto;
     height: 600px;
+}
+
+.backgrond-section-one.footer-bso {
+    height: 310px;
 }
 
 .list-one {
@@ -122,6 +127,7 @@ img {
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .list-description {
@@ -137,10 +143,17 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    width: 264px;
+    margin-left: 156px;
+    margin-bottom: 100px;
 }
 
 .ourteam {
     background: #F4F4FD;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 732px;
 }
 
 .logo.studio.white {
@@ -158,6 +171,11 @@ img {
     font-size: 16px;
     line-height: 1.5;
     color: #4D5AE5;
+    border: 0px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    height: 48px;
+    width: auto;
 }
 
 .button-portfolio:hover {
@@ -188,6 +206,8 @@ img {
     font-size: 36px;
     line-height: 1.1;
     color: #2E2F42;
+    display: flex;
+    justify-content: center;
 }
 
 .title-name {
@@ -196,6 +216,9 @@ img {
     font-size: 20px;
     line-height: 1.5;
     color: #2E2F42;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
 }
 
 .name-description {
@@ -254,3 +277,117 @@ header {
 .btn-spn {
     margin-top: 16px;
 }
+
+.fyb {
+    display: flex;
+    justify-content: center;
+}
+
+.es {
+    display: flex;
+    justify-content: center;
+}
+
+.containertwo {
+    margin: 120px 156px;
+    display: flex;
+    justify-content: center;
+}
+
+.ourgoals {
+    display: flex;
+}
+
+.og-item {
+    margin-right: 24px;
+    width: 264px;
+    height: 104px;
+}
+
+.containertwo.photos {
+    flex-direction: column;
+}
+
+.photo-section-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.command { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.containerthree {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.command-title {
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
+.commad-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    margin-right: 24px;
+}
+
+.commad-description {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.ws-footer {
+    margin-top: 100px;
+    margin-left: 156px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.container-buttons {
+    margin-top: 96px;
+    margin bottom: 72px;
+}
+
+.buttons-list-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.buttons-item-portfolio {}
+
+.text-button-portfolio {
+    margin: 12px 24px;
+}
+
+.photo-list-p {
+    display: flex;
+    margin-top: 76px;
+    margin-bottom: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+    justify-content: center;
+}
+
+.list-set {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 48px;
+    justify-content: flex-start;
+}
+
+.list-set-item {}
