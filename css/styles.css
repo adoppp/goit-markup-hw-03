@@ -117,7 +117,7 @@ img {
 }
 
 .backgrond-section-one.footer-bso {
-    height: 310px;
+    height: auto;
 }
 
 .list-one {
@@ -190,6 +190,10 @@ img {
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
 }
 
 .product-description {
@@ -198,6 +202,9 @@ img {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    display: flex;
+    margin-left: 16px;
+    margin-bottom: 32px;
 }
 
 .title-h2 {
@@ -348,6 +355,7 @@ header {
 .ws-footer {
     margin-top: 100px;
     margin-left: 156px;
+    margin-bottom: 16px;
 }
 
 .container-footer {
@@ -386,8 +394,13 @@ header {
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-bottom: 48px;
-    justify-content: flex-start;
+    gap: 48px;
+    justify-content: center;
 }
 
-.list-set-item {}
+.list-set-item {
+    background-color: #FFFFFF;
+    border: 1px solid #E7E9FC;
+    width: 360px;
+    height: 420px;
+}
