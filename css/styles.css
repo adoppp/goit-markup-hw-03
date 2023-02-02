@@ -191,7 +191,6 @@ img {
     line-height: 1.2;
     color: #2E2F42;
     display: flex;
-    margin-top: 32px;
     margin-bottom: 8px;
     margin-left: 16px;
 }
@@ -400,7 +399,13 @@ header {
 
 .list-set-item {
     background-color: #FFFFFF;
-    border: 1px solid #E7E9FC;
     width: 360px;
     height: 420px;
+}
+
+.border-bottom-card {
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    padding-top: 32px;
 }
