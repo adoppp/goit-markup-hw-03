@@ -8,6 +8,8 @@ a {
 }
 
 ul {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -49,8 +51,6 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .links:hover {
@@ -83,9 +83,7 @@ img {
     font-size: 56px;
     line-height: 1.0;
     color: #FFFFFF;
-    justify-content: center;
-    margin-top: 188px; 
-    width: 494px;
+    justify-content: center; 
 }
 
 .button-studio {
@@ -98,11 +96,8 @@ img {
     background: #4D5AE5;
     border: 0;
     margin-top: 48px;
-    width: 169px;
-    height: 56px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 188px;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .button-studio:hover {
@@ -112,12 +107,13 @@ img {
 
 .backgrond-section-one {
     background: #2E2F42;
-    width: auto;
-    height: 600px;
+    padding: 188px 0;
 }
 
 .backgrond-section-one.footer-bso {
-    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .list-one {
@@ -134,7 +130,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #434455;
 }
 .footer-description {
@@ -144,16 +140,12 @@ img {
     font-size: 16px;
     line-height: 1.5;
     width: 264px;
-    margin-left: 156px;
-    margin-bottom: 100px;
+    padding-left: 156px;
+    padding-bottom: 100px;
 }
 
 .ourteam {
     background: #F4F4FD;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    height: 732px;
 }
 
 .logo.studio.white {
@@ -172,10 +164,11 @@ img {
     line-height: 1.5;
     color: #4D5AE5;
     border: 0px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     height: 48px;
     width: auto;
+    margin-right: 24px;
+    padding: 12px 24px;
 }
 
 .button-portfolio:hover {
@@ -191,8 +184,8 @@ img {
     line-height: 1.2;
     color: #2E2F42;
     display: flex;
-    margin-bottom: 8px;
-    margin-left: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
 }
 
 .product-description {
@@ -202,8 +195,8 @@ img {
     line-height: 1.5;
     color: #434455;
     display: flex;
-    margin-left: 16px;
-    margin-bottom: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 
 .title-h2 {
@@ -224,7 +217,7 @@ img {
     color: #2E2F42;
     display: flex;
     justify-content: center;
-    margin-top: 32px;
+    padding-top: 32px;
 }
 
 .name-description {
@@ -242,42 +235,41 @@ img {
 
 .contact-parents {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 24px;
-    margin-right: 156px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 .list-nav {
     display: inline-flex;
     justify-content: space-between;
-    margin-top: 24px;
+    align-items: center;
 }
 
 .cont-item {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 24px;
-}
-
-.ad-item {
-    display: inline;
-    margin-left: 40px;
-}
-
-.logotip {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    align-items: center;
 }
 
 .containerone {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .btn-spn {
@@ -295,7 +287,7 @@ img {
 }
 
 .containertwo {
-    margin: 120px 156px;
+    padding: 120px 156px;
     display: flex;
     justify-content: center;
 }
@@ -306,18 +298,27 @@ img {
 
 .og-item {
     margin-right: 24px;
-    width: 264px;
-    height: 104px;
 }
 
-.containertwo.photos {
+.photos {
+    display: flex;
+    width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
     flex-direction: column;
+}
+
+.h-two {
+    margin-bottom: 72px;
+   
 }
 
 .photo-section-two {
     display: flex;
     justify-content: space-between;
-    margin-top: 72px;
+    padding-bottom: 120px;
 }
 
 .command { 
@@ -329,6 +330,7 @@ img {
 .containerthree {
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0 / 15%);
  
 }
 
@@ -347,58 +349,75 @@ img {
 .commad-description {
     display: flex;
     justify-content: center;
-    margin-top: 8px;
-    margin-bottom: 32px;
+    padding-top: 8px;
+    padding-bottom: 32px;
 }
 
 .ws-footer {
-    margin-top: 100px;
-    margin-left: 156px;
-    margin-bottom: 16px;
+    padding-top: 100px;
+    padding-left: 156px;
+    padding-bottom: 16px;
 }
 
 .container-footer {
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px;
 }
 
 .container-buttons {
-    margin-top: 96px;
-    margin-bottom: 72px;
+    display: flex;
+    width: 586px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;  
 }
+
+/* margin-top: 96px;
+margin-bottom: 72px;
+width: 586px;
+display: flex;
+justify-content: center; */
 
 .buttons-list-portfolio {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    margin-top: 96px;
+    margin-bottom: 72px;
+    
 }
 
-.text-button-portfolio {
-    margin: 12px 24px;
-}
+/* display: flex;
+align-items: baseline;
+justify-content: space-around; */
 
 .photo-list-p {
     display: flex;
-    margin-top: 76px;
-    margin-bottom: 120px;
-    margin-left: 156px;
-    margin-right: 156px;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.footer-bso {
+    background: #2E2F42;
+}
+
+
 .list-set {
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 48px;
+    display: flex;
     justify-content: center;
+    padding-bottom: 120px;
+    flex-wrap: wrap;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
 .list-set-item {
     background-color: #FFFFFF;
-    width: 360px;
-    height: 420px;
+    margin-right: 24px;
+    margin-bottom: 48px;
 }
 
 .border-bottom-card {
@@ -410,5 +429,17 @@ img {
 
 .header-bottom {
     border-bottom: 1px solid #E7E9FC;
-    width: auto;
+    padding: 23px 0;
 }
+
+.li-nav {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*  display: flex;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;     */
